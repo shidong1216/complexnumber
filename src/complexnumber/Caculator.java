@@ -24,7 +24,7 @@ public class Caculator {
 			}
 			
 			
-			System.out.println("Do you want to do more caculation, please enter yes/or");
+			System.out.println("Do you want to do more caculation, please enter yes/no");
 			String isContinue = input.next();
 			if(isContinue.equalsIgnoreCase("no")) {
 				running = false;
